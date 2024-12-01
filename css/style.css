@@ -1,0 +1,830 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+#Hero {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+#Hero #Menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  margin-bottom: 7%;
+}
+
+nav ul li {
+  float: right;
+  display: inline;
+  margin: 0 25px;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+nav ul li button {
+  padding: 15px 30px;
+  background-color: #c47344;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+}
+
+nav ul li a {
+  color: #322f2e;
+  text-decoration: none;
+}
+
+#RelyOnUs #New {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+#RelyOnUs .New {
+  background-size: 3%;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #f9a38f;
+  padding: 0.1px 13px;
+  border-radius: 20px;
+  z-index: 1;
+  transform: translate(15%, 0);
+}
+
+#RelyOnUs .ArtMarketReport {
+  background-size: 12%;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: Roboto, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: center;
+  color: #4d4d4d;
+  background-color: #f9ede2;
+  padding: 1px 25px;
+  border-radius: 20px;
+  z-index: 2;
+}
+
+#RelyOnUs h2 {
+  font-family: Roboto, sans-serif;
+  font-size: 110px;
+  font-weight: 700;
+  line-height: 119px;
+  text-align: center;
+  color: #322f2e;
+  margin-bottom: 30px;
+}
+
+#RelyOnUs p {
+  width: 524px;
+  font-family: Roboto, sans-serif;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 33px;
+  text-align: center;
+  color: #322f2e;
+  margin: 0 auto;
+}
+
+#RelyOnUs button {
+  padding: 15px 40px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #c47344;
+  margin: 25px auto 0;
+}
+
+#WhatIsArcatra {
+  padding: 3.5%;
+}
+
+#WhatIsArcatra #ImageRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+#WhatIsArcatra2 {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  cursor: pointer;
+}
+
+#WhatIsArcatra2 span {
+  height: 20px;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+  color: #c47344;
+}
+
+#idk img {
+  width: 100%;
+}
+
+#MainSection {
+  background: linear-gradient(to bottom, #fff8ee, #ffffff);
+  padding: 100px 250px;
+}
+
+#MainSection .First2,
+.Second2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 25px;
+}
+
+#MainSection .First2 .Frame,
+.Second2 .Frame {
+  width: 496.9px;
+  height: 498px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 1px 20px 0px #00000014;
+  background-position: center;
+}
+
+#MainSection .First2 .Frame img,
+.Second2 .Frame img {
+  width: 40%;
+}
+
+#MainSection .First2 .Frame h3,
+.Second2 .Frame h3 {
+  font-family: Roboto, sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: center;
+  color: #322f2e;
+  margin-bottom: 15px;
+}
+
+#MainSection .First2 .Frame p,
+.Second2 .Frame p {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: center;
+  color: #322f2e;
+  margin-bottom: 30px;
+}
+
+#MainSection .LearnMore {
+  width: 152.11px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+#MainSection .LearnMore span {
+  font-family: Roboto, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+}
+
+#MainSection .Second2 .Frame h3 {
+  width: 254px;
+  height: 104px;
+  top: 297px;
+  left: 118px;
+}
+
+#MainSection .Second2 .Frame p {
+  width: 437px;
+  height: 56px;
+  top: 418px;
+  left: 27px;
+}
+
+#MainSection .Second2 .LearnMore {
+  width: 150px;
+  height: 48px;
+}
+
+#Promo-1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 75px 250px;
+}
+
+#Promo-1 .promo-left {
+  position: relative;
+  margin-left: 80px;
+}
+
+#Promo-1 .promo-left .promo-content {
+  position: absolute;
+  top: 0;
+}
+
+#Promo-1 .promo-left .promo-content img {
+  margin-left: 34.5px;
+  margin-bottom: 5px;
+}
+
+#Promo-1 .promo-left .promo-number {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+#Promo-1 .promo-left .promo-subtitle {
+  width: 153px;
+  height: 64px;
+  top: 111px;
+  left: 25px;
+  font-family: Roboto, sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  color: #ffffff;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+#Promo-1 .promo-left .Begin {
+  margin-left: 34.5px;
+  display: flex;
+  align-items: center;
+  gap: 85px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#Promo-1 .promo-left .Begin span {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  color: #ffffff;
+}
+
+#Promo-1 .promo-right .New {
+  background-repeat: no-repeat;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+#Promo-1 .promo-right .New span {
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 25px;
+  margin-left: 13px;
+}
+
+#Promo-1 .promo-right h2 {
+  width: 465px;
+  height: 186px;
+  top: 42.63px;
+  font-family: Roboto, sans-serif;
+  font-size: 53px;
+  font-weight: 700;
+  line-height: 62px;
+  text-align: left;
+  color: #322f2e;
+  margin-bottom: 20px;
+}
+
+#Promo-1 .promo-right p {
+  width: 416px;
+  height: 66px;
+  top: 253.63px;
+  font-family: Roboto, sans-serif;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 33px;
+  text-align: left;
+  color: #322f2e;
+  margin-bottom: 20px;
+}
+
+#Promo-1 .promo-right #TakeAQuiz {
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+#Promo-1 .promo-right #TakeAQuiz span {
+  top: 13px;
+  font-family: Roboto, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+  color: #000000;
+  position: relative;
+}
+
+#Promo-2 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin: 75px 0;
+  margin-bottom: 100px;
+}
+
+#Promo-2 .Promo-2-content {
+  width: 1200px;
+  height: 413px;
+  display: flex;
+  gap: 50px;
+}
+
+#Promo-2 .promo-left {
+  margin-left: 50px;
+  margin-top: 40px;
+}
+
+#Promo-2 .promo-content h2 {
+  font-family: Roboto, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 54px;
+  text-align: left;
+  color: #1a1918;
+  margin-top: 85px;
+  margin-bottom: 25px;
+}
+
+#Promo-2 .promo-content p {
+  width: 544px;
+  height: 64px;
+  top: 97.36px;
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: left;
+  color: #322f2e;
+  margin-bottom: 25px;
+}
+
+#Promo-2 #YourEmail {
+  padding: 20px;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  display: flex;
+  gap: 240px;
+  cursor: pointer;
+}
+
+#Promo-2 #YourEmail span {
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: left;
+  color: #00000073;
+  margin-left: 25px;
+  margin-top: 5px;
+}
+
+#Promo-2 #YourEmail img {
+  margin-top: 5px;
+  width: 30px;
+  height: 30px;
+}
+
+#Footer {
+  padding: 50px 160px;
+}
+
+#Footer-1-2-3-4 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Footer-1 p {
+  width: 313px;
+  height: 60px;
+  font-family: Roboto, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #313131;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.Footer-1 .Service-provider p {
+  width: 155px;
+  height: 20px;
+  font-family: Roboto, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  color: #313131;
+  margin-bottom: 10px;
+}
+
+.Footer-1 .Service-provider img {
+  margin-bottom: 5px;
+}
+
+.Footer-1 .Partnership p {
+  width: 108px;
+  height: 20px;
+  top: -1.36px;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  color: #313131;
+  margin-bottom: 10px;
+}
+
+.Footer-1 .ICO {
+  width: 314px;
+  height: 40px;
+  top: 391.09px;
+  font-family: Roboto, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #d3d3d3;
+  margin-bottom: 10px;
+}
+
+.Footer-1 .Arc-Pay {
+  width: 117px;
+  height: 20px;
+  top: 451.09px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Roboto, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #d3d3d3;
+  margin-bottom: 1px;
+}
+
+.Footer-2-3-4 {
+  display: flex;
+  justify-content: space-between;
+  gap: 125px;
+  text-align: left;
+  flex-wrap: wrap;
+}
+
+.Footer-2 ul,
+.Footer-3 ul,
+.Footer-4 ul {
+  list-style: none;
+  padding: 0;
+}
+
+.Footer-2 h4 {
+  font-family: Roboto, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.Footer-2 li {
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #313131;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.Footer-3 h4 {
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.Footer-3 li {
+  font-family: Roboto, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #313131;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.Footer-4 h4 {
+  font-family: Roboto, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.Footer-4 li {
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #313131;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.Footer-4 .NewResource {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Footer-4 .NewResource .New {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.Footer-4 .NewResource .New span {
+  width: 22px;
+  height: 21px;
+  top: 1px;
+  left: 14px;
+  font-family: Roboto, sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.Privacy-Terms {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.Privacy-Terms .content {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.Privacy-Terms .content p {
+  width: 97px;
+  height: 20px;
+  top: 18.81px;
+  font-family: Roboto, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #d3d3d3;
+}
+
+.Twitter img,
+.Instagram img,
+.YouTube img {
+  cursor: pointer;
+}
+
+.formContainer {
+  position: fixed;
+  max-width: 420px;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1.2);
+  background: #f9a38f;
+  padding: 25px;
+  border-radius: 12px;
+  opacity: 0;
+  transition: all 0.4s ease-out;
+}
+
+.home.show .formContainer {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.formContainer.active .signupForm {
+  display: block;
+}
+
+.formContainer.active .loginForm {
+  display: none;
+}
+
+.closeForm {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  color: #0b0217;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.formContainer h2 {
+  font-size: 22px;
+  color: #0b0217;
+  text-align: center;
+}
+
+.inputBox {
+  position: relative;
+  margin-top: 30px;
+  width: 88%;
+  height: 40px;
+}
+
+.inputBox input {
+  width: 100%;
+  height: 100%;
+  padding: 0 30px;
+}
+
+.inputBox i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+}
+
+.email,
+.password {
+  left: 0;
+}
+
+.optionField {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 14px;
+}
+
+.formContainer a {
+  color: var(--color4);
+  font-family: var(--font-family);
+  font-size: 16px;
+}
+
+.checkbox label {
+  font-size: 16px;
+  cursor: pointer;
+  user-select: none;
+  color: #0b0217;
+}
+
+.button {
+  margin-top: 30px;
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 10px;
+}
+
+.loginSignup {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.signupForm {
+  display: none;
+}
+
+.quiz-modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  overflow: auto;
+  padding-top: 60px;
+}
+
+.quiz-modal-content {
+  background-color: white;
+  margin: 5% auto;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.close-btn {
+  color: #aaa;
+  font-size: 28px;
+  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  cursor: pointer;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.quiz-container {
+  padding: 20px;
+}
+
+.question-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#answerInput {
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#nextBtn {
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: #c47344;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}

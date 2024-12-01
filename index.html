@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <script defer src="js/index.js"></script>
+    <script src="js/db.js"></script>
+    <title>arcatra</title>
+  </head>
+  <body>
+    <div id="Desktop">
+      <section id="Hero">
+        <section id="Menu">
+          <div id="Logo">
+            <img src="img/logo.png" />
+          </div>
+          <nav>
+            <ul>
+              <li><button>Get Started</button></li>
+              <li><a href="#" id="loginButton">Login</a></li>
+              <li><a href="#">Contacts</a></li>
+              <li><a href="#">FAQs</a></li>
+              <li><a href="#">Resources</a></li>
+              <li><a href="#">Solutions</a></li>
+              <li><a href="#">What is arcatra?</a></li>
+            </ul>
+          </nav>
+        </section>
+
+        <section class="home">
+          <div class="formContainer">
+            <i class="uil uil-times closeForm"></i>
+
+            <div class="form loginForm">
+              <form action="login.php" method="post">
+                <h2>УВІЙТИ</h2>
+                <div class="inputBox">
+                  <input
+                    type="email"
+                    placeholder="Enter your email"
+                    required
+                    name="email"
+                  />
+                  <i class="uil uil-envelope-alt email"></i>
+                </div>
+                <div class="inputBox">
+                  <input
+                    type="password"
+                    placeholder="Enter your password"
+                    required
+                    name="password"
+                  />
+                  <i class="uil uil-lock password"></i>
+                </div>
+                <div class="optionField">
+                  <span class="checkbox">
+                    <input type="checkbox" id="check" />
+                    <label for="check">Запам'ятати мене</label>
+                  </span>
+                  <a href="#" class="forgot_pw">Забув пароль</a>
+                </div>
+                <button class="button">Увійти</button>
+                <div class="loginSignup">
+                  Немає акаунту? <a href="#" id="signup">Зареєструватися</a>
+                </div>
+              </form>
+            </div>
+
+            <div class="form signupForm">
+              <form action="registration.php" method="post">
+                <h2>ЗАРЕЄСТРУВАТИСЯ</h2>
+                <div class="inputBox">
+                  <input
+                    type="email"
+                    placeholder="Введи свій email"
+                    required
+                    name="email"
+                  />
+                  <i class="uil uil-envelope-alt email"></i>
+                </div>
+                <div class="inputBox">
+                  <input
+                    type="password"
+                    placeholder="Придумай пароль"
+                    required
+                    name="password"
+                  />
+                  <i class="uil uil-lock password"></i>
+                </div>
+                <div class="inputBox">
+                  <input
+                    type="password"
+                    placeholder="Повтори пароль"
+                    required
+                    name="reapetPassword"
+                  />
+                  <i class="uil uil-lock password"></i>
+                </div>
+                <button class="button">Зареєструватися</button>
+                <div class="loginSignup">
+                  Вже маєш акаунт? <a href="#" id="login">Увійти</a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
+
+        <div id="RelyOnUs">
+          <div id="New">
+            <div class="New">
+              <span>New</span>
+            </div>
+
+            <div class="ArtMarketReport">
+              <span>The Art Market Report</span>
+            </div>
+          </div>
+          <h2>Rely on us</h2>
+          <p>
+            Our Customer Due Diligence platform helps you avoid fines or losing
+            clients due to AML while protecting you from cybercrime.
+          </p>
+          <div>
+            <button>Learn More</button>
+          </div>
+        </div>
+
+        <div id="WhatIsArcatra">
+          <div id="ImageRow">
+            <img src="img/Rectangle.png" />
+            <img src="img/Rectangle (2).png" />
+            <img src="img/Rectangle (3).png" />
+            <img src="img/Rectangle (1).png" />
+          </div>
+          <div id="WhatIsArcatra2">
+            <span>What is Arcatra?</span>
+            <img src="img/WhatIsArcatra.png" class="arrow" />
+          </div>
+        </div>
+        <div id="idk">
+          <img src="img/Frame.png" />
+        </div>
+      </section>
+
+      <section id="MainSection">
+        <div class="First2">
+          <div class="Frame" style="background-image: url('img/MainFrame.png')">
+            <img src="img/ArtDealers.png" />
+            <h3>For Art Dealers</h3>
+            <p>Galleries and independent art dealers</p>
+            <div
+              class="LearnMore"
+              style="background-image: url('img/LearnMoreMain.png')"
+            >
+              <span>Learn More</span>
+            </div>
+          </div>
+          <div class="Frame" style="background-image: url('img/MainFrame.png')">
+            <img src="img/AdvisorsMain.png" />
+            <h3>For Advisors</h3>
+            <p>Advisors, agents and consultants</p>
+            <div
+              class="LearnMore"
+              style="background-image: url('img/LearnMoreMain.png')"
+            >
+              <span>Learn More</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="Second2">
+          <div class="Frame" style="background-image: url('img/MainFrame.png')">
+            <img src="img/AuctionersMain.png" />
+            <h3>For Auctioneers</h3>
+            <p>Online and offline auctioneers</p>
+            <div
+              class="LearnMore"
+              style="background-image: url('img/LearnMoreMain.png')"
+            >
+              <span>Learn More</span>
+            </div>
+          </div>
+          <div class="Frame" style="background-image: url('img/MainFrame.png')">
+            <img src="img/ExportCollectorsMain.png" />
+            <h3>For Buyers & Collectors</h3>
+            <p>
+              Receiving Invoices, making card payments and sending your ID and
+              address documents
+            </p>
+            <div
+              class="LearnMore"
+              style="background-image: url('img/LearnMoreMain.png')"
+            >
+              <span>Learn More</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="Promo-1">
+        <div class="promo-left">
+          <img src="img/PromoLeftBG.png" />
+          <div class="promo-content">
+            <h2 class="promo-number">01</h2>
+            <img src="img/ComplianceQuiz.png" />
+            <h3 class="promo-subtitle">Compliance Quiz</h3>
+            <img src="img/PromoLine.png" />
+            <div class="Begin">
+              <span>Begin</span>
+              <img src="img/Vector.png" style="margin-top: 5px" />
+            </div>
+          </div>
+        </div>
+
+        <div class="promo-right">
+          <div class="promo-content">
+            <div
+              class="New"
+              style="background-image: url('img/NewRectangle.png')"
+            >
+              <span>New</span>
+            </div>
+            <h2>Does Anti-money Laundering affect you?</h2>
+            <p>
+              A short, interactive quiz to check if your art business is
+              affected by 5AMLD regulation.
+            </p>
+            <div id="TakeAQuiz" style="background-image: url('img/QuizBG.png')">
+              <span id="startQuiz">Take the Quiz</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div id="quizModal" class="quiz-modal">
+        <div class="quiz-modal-content">
+          <span id="closeBtn" class="close-btn">&times;</span>
+          <div id="quizContainer" class="quiz-container">
+            <h2>Квіз</h2>
+            <div id="questionContainer" class="question-container">
+              <p id="questionText">Питання 1: Скільки буде 2 + 2?</p>
+              <input
+                type="text"
+                id="answerInput"
+                placeholder="Ваша відповідь"
+              />
+              <button id="nextBtn">Продовжити</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section id="Promo-2">
+        <div
+          class="Promo-2-content"
+          style="background-image: url('img/Promo-2BG.png')"
+        >
+          <div class="promo-left">
+            <img src="img/Promo-2Frame.png" />
+          </div>
+
+          <div class="promo-right">
+            <div class="promo-content">
+              <h2>Art world insight.</h2>
+              <p>
+                Receive our newsletter direct to your inbox to follow updates to
+                legislation and the EU art-market's response.
+              </p>
+              <div
+                id="YourEmail"
+                style="background-image: url('img/EmailBG.png')"
+              >
+                <span>Your email</span>
+                <img src="img/Vector2.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="Footer">
+        <div id="Footer-1-2-3-4">
+          <div class="Footer-1">
+            <div class="Footer-logo">
+              <img src="img/logo.png" />
+            </div>
+            <p>
+              Our Customer Due Diligence platform helps you avoid fines or
+              losing clients due to AML while protecting you from cybercrime.
+            </p>
+            <div class="Service-provider">
+              <p>Approved Service Provider</p>
+              <img src="img/ServiceProvider.png" />
+            </div>
+            <div class="Partnership">
+              <p>In Partnership with</p>
+              <img src="img/Lavv.png" />
+              <img src="img/Dash.png" />
+              <img src="img/LondonArtWeek.png" />
+            </div>
+            <p class="ICO">
+              Registered with the Information Commissioner's Office (ICO)
+              Registration number: ZA679248
+            </p>
+            <p class="Arc-Pay">© Arc-Pay Ltd 2021</p>
+          </div>
+          <div class="Footer-2-3-4">
+            <div class="Footer-2">
+              <h4>Links</h4>
+              <ul>
+                <li>Home</li>
+                <li>About us</li>
+                <li>Why arcatra</li>
+                <li>Success Stories</li>
+                <li>FAQ's</li>
+                <li>Contact Us</li>
+                <li>AmongUs</li>
+                <li>Join</li>
+                <li>Invite</li>
+                <li>Compliance Quiz</li>
+                <li>ID Document Quiz</li>
+              </ul>
+            </div>
+
+            <div class="Footer-3">
+              <h4>Solutions</h4>
+              <ul>
+                <li>For Galleries</li>
+                <li>For Advisors</li>
+                <li>For Auctioneers</li>
+                <li>For Secure Payments</li>
+                <li>For Buyers & Collectors</li>
+                <li>Online AML Training</li>
+              </ul>
+            </div>
+
+            <div class="Footer-4">
+              <h4>Resources</h4>
+              <ul>
+                <li>Articles</li>
+                <li>Resources</li>
+                <li>Help Centre</li>
+                <li>The Bigger Picture</li>
+                <li>Login</li>
+                <li>Brand Assets</li>
+                <div class="NewResource">
+                  <li>The Art Market Report</li>
+                  <div
+                    class="New"
+                    style="background-image: url('img/NewRectangle.png')"
+                  >
+                    <span>New</span>
+                  </div>
+                </div>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="Privacy-Terms">
+          <img src="img/FooterEndImg.png" />
+          <div class="content">
+            <p>Privacy & Terms</p>
+            <div class="Twitter">
+              <img src="img/Twitter.png" />
+            </div>
+            <div class="Instagram">
+              <img src="img/Instagram.png" />
+            </div>
+            <div class="YouTube">
+              <img src="img/YouTube.png" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
