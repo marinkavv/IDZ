@@ -1,3 +1,12 @@
+const forms = document.querySelectorAll("form");
+
+forms.forEach((form) => {
+  form.addEventListener("submit", function (event) {
+    event.preventDefault();
+    alert("Форма надіслана успішно! (Демонстрація)");
+  });
+});
+
 const loginButton = document.querySelector("#loginButton"),
   home = document.querySelector(".home"),
   formContainer = document.querySelector(".formContainer"),
